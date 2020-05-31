@@ -12,4 +12,4 @@ git diff HEAD 查看工作区和仓库的差异，
 
 git add的反向命令git checkout，撤销工作区修改，即把暂存区最新版本转移到工作区，
 
-git commit的反向命令git reset HEAD，就是把仓库最新版本转移到暂存区。
+git commit的反向命令git reset HEAD，就是将暂存区的修改回退到工作区，暂存区清空
